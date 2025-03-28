@@ -4,84 +4,84 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-1" target="h62a_uFuJLTpGLQyJn3N-12">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h62a_uFuJLTpGLQyJn3N-1" target="h62a_uFuJLTpGLQyJn3N-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-1" value="1.doorOpenCloseExecuteTask&lt;div&gt;开关门属性入库10s/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-1" value="1.doorOpenCloseExecuteTask&lt;div&gt;开关门属性入库10s/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="360" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-2" target="h62a_uFuJLTpGLQyJn3N-9">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-2" target="h62a_uFuJLTpGLQyJn3N-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-18" value="使用缓存查询站台下的space，&lt;div&gt;统计space下的滑动门开关次数，&lt;/div&gt;&lt;div&gt;再加载到缓存里&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h62a_uFuJLTpGLQyJn3N-16">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-18" value="使用缓存查询站台下的space，&lt;div&gt;统计space下的滑动门开关次数，&lt;/div&gt;&lt;div&gt;再加载到缓存里&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h62a_uFuJLTpGLQyJn3N-16" vertex="1" connectable="0">
           <mxGeometry x="-0.3413" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-2" value="3.doorOpenCloseTimeTask&lt;div&gt;开关门时间统计10s/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-2" value="3.doorOpenCloseTimeTask&lt;div&gt;开关门时间统计10s/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="500" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-8" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-8" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-9" value="redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-9" value="redis" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-10" value="influxdb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-10" value="influxdb" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-11" target="h62a_uFuJLTpGLQyJn3N-19">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h62a_uFuJLTpGLQyJn3N-11" target="h62a_uFuJLTpGLQyJn3N-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-11" value="&lt;div&gt;2.dcuAnalogExecuteTask&lt;/div&gt;模拟量入库3s/次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-11" value="&lt;div&gt;2.dcuAnalogExecuteTask&lt;/div&gt;模拟量入库3s/次" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="430" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-12" target="h62a_uFuJLTpGLQyJn3N-8">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-12" target="h62a_uFuJLTpGLQyJn3N-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-12" value="MessageQueue&amp;lt;DataMessage&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-12" value="MessageQueue&amp;lt;DataMessage&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="365" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-19" target="h62a_uFuJLTpGLQyJn3N-8">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-19" target="h62a_uFuJLTpGLQyJn3N-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-19" value="MessageQueue&amp;lt;AnalogDataDto&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-19" value="MessageQueue&amp;lt;AnalogDataDto&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="430" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-22" target="h62a_uFuJLTpGLQyJn3N-23">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-22" target="h62a_uFuJLTpGLQyJn3N-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-22" value="4.alarmHandleExecuteTask&lt;div&gt;报警处理250ms/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-22" value="4.alarmHandleExecuteTask&lt;div&gt;报警处理250ms/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="570" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-23" target="h62a_uFuJLTpGLQyJn3N-29">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h62a_uFuJLTpGLQyJn3N-23" target="h62a_uFuJLTpGLQyJn3N-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-23" value="MessageQueue&amp;lt;AlarmHandleDto&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-23" value="MessageQueue&amp;lt;AlarmHandleDto&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="570" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-27" target="h62a_uFuJLTpGLQyJn3N-29">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h62a_uFuJLTpGLQyJn3N-27" target="h62a_uFuJLTpGLQyJn3N-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-27" value="AlarmHandlerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-27" value="AlarmHandlerService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="640" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-28">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h62a_uFuJLTpGLQyJn3N-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-37" value="根据设备数据和报警规则，判断是否触发报警，并进行相应处理&lt;div&gt;根据产品id，优先从本地缓存中获取其报警规则&lt;/div&gt;&lt;div&gt;处理完后将报警信息保存到本地缓存中。&lt;/div&gt;&lt;div&gt;判断方案，直接执行获取来的脚本，脚本返回ture/false&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h62a_uFuJLTpGLQyJn3N-35">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-37" value="根据设备数据和报警规则，判断是否触发报警，并进行相应处理&lt;div&gt;根据产品id，优先从本地缓存中获取其报警规则&lt;/div&gt;&lt;div&gt;处理完后将报警信息保存到本地缓存中。&lt;/div&gt;&lt;div&gt;判断方案，直接执行获取来的脚本，脚本返回ture/false&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h62a_uFuJLTpGLQyJn3N-35" vertex="1" connectable="0">
           <mxGeometry x="0.0463" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-28" value="RuleAlarmHandlerImpl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-28" value="RuleAlarmHandlerImpl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="180" y="750" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-29" target="h62a_uFuJLTpGLQyJn3N-28">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-29" target="h62a_uFuJLTpGLQyJn3N-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="385" y="730" />
@@ -89,12 +89,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-41" value="@Primary" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h62a_uFuJLTpGLQyJn3N-31">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-41" value="@Primary" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h62a_uFuJLTpGLQyJn3N-31" vertex="1" connectable="0">
           <mxGeometry x="0.2474" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-29" target="h62a_uFuJLTpGLQyJn3N-33">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-29" target="h62a_uFuJLTpGLQyJn3N-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="385" y="730" />
@@ -102,43 +102,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-29" value="AbstractAlarmHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-29" value="AbstractAlarmHelper" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="690" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-33" value="DefaultAlarmHandlerImpl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-33" value="DefaultAlarmHandlerImpl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="430" y="750" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-40" value="DataMessageTaskHub定时任务，起到解耦-批量的作用&lt;div&gt;将自定义队列里的数据，进行处理或者批量保存到对应数据库&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-40" value="DataMessageTaskHub定时任务，起到解耦-批量的作用&lt;div&gt;将自定义队列里的数据，进行处理或者批量保存到对应数据库&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="310" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-43" target="h62a_uFuJLTpGLQyJn3N-44">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-43" target="h62a_uFuJLTpGLQyJn3N-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-43" value="5.dalianAnalogExecuteTask&lt;div&gt;大连模拟量入时序库3s/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-43" value="5.dalianAnalogExecuteTask&lt;div&gt;大连模拟量入时序库3s/次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="860" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h62a_uFuJLTpGLQyJn3N-44" target="h62a_uFuJLTpGLQyJn3N-10">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h62a_uFuJLTpGLQyJn3N-44" target="h62a_uFuJLTpGLQyJn3N-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-44" value="MessageQueue&amp;lt;AnalogDataDto&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-44" value="MessageQueue&amp;lt;AnalogDataDto&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="860" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-47" value="定时任务有四个，其中两个是psa的，&lt;div&gt;剩下两个下面详细讲解做了什么&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-47" value="定时任务有四个，其中两个是psa的，&lt;div&gt;剩下两个下面详细讲解做了什么&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="310" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-49" value="MessageQueueConsumerTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-49" value="MessageQueueConsumerTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="1020" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-50" value="6.initEveryDayInspect&lt;div&gt;每天凌晨1:10初始化巡检为当天未巡检&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-50" value="6.initEveryDayInspect&lt;div&gt;每天凌晨1:10初始化巡检为当天未巡检&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="920" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-51" value="7.safeRunDays&lt;div&gt;每天凌晨1:20更新安全运行天数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-51" value="7.safeRunDays&lt;div&gt;每天凌晨1:20更新安全运行天数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="920" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-52" value="realtimeDataExecuteTask&lt;div&gt;发送报警通知&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-52" value="realtimeDataExecuteTask&lt;div&gt;发送报警通知&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1080" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h62a_uFuJLTpGLQyJn3N-53" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="h62a_uFuJLTpGLQyJn3N-53" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="300" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
